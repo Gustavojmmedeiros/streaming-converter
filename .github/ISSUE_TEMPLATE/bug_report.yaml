@@ -2,7 +2,6 @@ name: Bug report
 description: Report a problem or unexpected behavior on this code!
 title: '[BUG] '
 labels: ['type: bug']
-projects: [TBDSEC/2]
 assignees: ['']
 body:
   - type: markdown
