@@ -12,7 +12,7 @@ ARG PYTHON_VERSION=3.12.1
 
 # Updating Packages (and installing pre-requisite for .dotfiles)
 ENV DEBIAN_FRONTEND=noninteractive
-RUN apt update && apt upgrade && apt install -y git locales
+RUN apt update && apt upgrade -y && apt install -y git locales
 
 # Copy custom scripts and set the required permissions
 COPY custom-scripts/ /tmp/scripts/
