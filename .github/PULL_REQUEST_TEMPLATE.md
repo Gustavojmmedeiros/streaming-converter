@@ -11,7 +11,7 @@ Fixes #ISSUE_NUMBER
 
 # Test Cases
 
-> What tests you have done? This section is used by the reviewer to make sure that all the relevant tests
+> What tests have you done? This section is used by the reviewer to make sure that all the relevant tests
 > were made before the changes go to production. This also is a good way to double-check if you did all the
 > necessary tests.  Some examples: "tested the connection on the staging environment", "unit tests",
 > "validated with X team".
@@ -28,8 +28,8 @@ Fixes #ISSUE_NUMBER
 * [ ] I made the corresponding changes on the documentation;
 * [ ] I merged all the changes that this PR is dependent;
 * [ ] I didn't left any unnecessary code/resource on the staging environment (e.g. a old namespace on k8s, an old VM on GCP);
-* [ ] I didn't added things out of the scope of the PR (If so, please split into multiple PRs);
-* [ ] I didn't added any sensitive information (If so, please refer to
+* [ ] I didn't add things out of the scope of the PR (If so, please split into multiple PRs);
+* [ ] I didn't add any sensitive information (If so, please refer to
 [Removing Sensitive Data From a Repository](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository));
 
 #### For Code Changes
