@@ -1,0 +1,90 @@
+{
+    "name": "DevContainer",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "postStartCommand": "/bin/bash /tmp/scripts/poststart.sh",
+    "postCreateCommand": "/bin/bash /tmp/scripts/postcreate.sh",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "DavidAnson.vscode-markdownlint",
+                "redhat.vscode-yaml",
+                "streetsidesoftware.code-spell-checker",
+                "ms-python.vscode-pylance",
+                "hediet.vscode-drawio",
+                "christian-kohler.path-intellisense",
+                "timonwong.shellcheck",
+                "ms-azuretools.vscode-docker",
+                "ms-python.black-formatter",
+                "bierner.markdown-mermaid",
+                "ms-python.python",
+                "njpwerner.autodocstring",
+                "tamasfe.even-better-toml",
+                "ms-vscode.makefile-tools"
+            ],
+            "settings": {
+                "autoDocstring": {
+                    "docstringFormat": "google"
+                },
+                "files": {
+                    "exclude": {
+                        "**/.vscode/**": true,
+                        "**/__pycache__/**": true,
+                        "**/.pytest_cache/**": true,
+                        "**/.ipynb_checkpoints/**": true
+                    },
+                    "watcherExclude": {
+                        "**/.vscode/**": true,
+                        "**/__pycache__/**": true,
+                        "**/.pytest_cache/**": true,
+                        "**/.ipynb_checkpoints/**": true
+                    },
+                    "trimTrailingWhitespace": true
+                },
+                "search": {
+                    "exclude": {
+                        "**/.vscode/**": true,
+                        "**/__pycache__/**": true,
+                        "**/.pytest_cache/**": true,
+                        "**/.ipynb_checkpoints/**": true
+                    }
+                },
+                "markdownlint": {
+                    "ignore": [
+                        ".github/pull_request_template.md"
+                    ],
+                    "config": {
+                        "default": true,
+                        "MD003": {
+                            "style": "atx"
+                        },
+                        "MD007": {
+                            "indent": 4
+                        },
+                        "MD033": {
+                            "allowed_elements": [
+                                "img",
+                                "p"
+                            ]
+                        }
+                    }
+                },
+                "editor.rulers": [
+                    79,
+                    110
+                ],
+                "cSpell.language": "en,pt,pt-BR",
+                "python": {
+                    "testing.pytestEnabled": true,
+                    "missingPackage.severity": "Error"
+                },
+                "redhat.telemetry.enabled": false,
+                "yaml.format": {
+                    "enable": true,
+                    "sigleQuote": true
+                }
+            }
+        }
+    }
+}
