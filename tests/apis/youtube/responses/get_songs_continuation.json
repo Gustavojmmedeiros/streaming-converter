@@ -1,0 +1,140 @@
+{
+    "continuationContents": {
+        "musicPlaylistShelfContinuation": {
+            "contents": [
+                {
+                    "musicResponsiveListItemRenderer": {
+                        "flexColumns": [
+                            {
+                                "musicResponsiveListItemFlexColumnRenderer": {
+                                    "text": {
+                                        "runs": [
+                                            {
+                                                "text": "SONG1_NAME"
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "musicResponsiveListItemFlexColumnRenderer": {
+                                    "text": {
+                                        "runs": [
+                                            {
+                                                "navigationEndpoint": {
+                                                    "browseEndpoint": {
+                                                        "browseId": "SONG1_ID"
+                                                    }
+                                                },
+                                                "text": "SONG1_ARTIST"
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "musicResponsiveListItemFlexColumnRenderer": {
+                                    "text": {
+                                        "runs": [
+                                            {
+                                                "text": "SONG1_ALBUM"
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "musicResponsiveListItemRenderer": {
+                        "flexColumns": [
+                            {
+                                "musicResponsiveListItemFlexColumnRenderer": {
+                                    "text": {
+                                        "runs": [
+                                            {
+                                                "text": "SONG2_NAME"
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "musicResponsiveListItemFlexColumnRenderer": {
+                                    "text": {
+                                        "runs": [
+                                            {
+                                                "navigationEndpoint": {
+                                                    "browseEndpoint": {
+                                                        "browseId": "SONG2_ID"
+                                                    }
+                                                },
+                                                "text": "SONG2_ARTIST"
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "musicResponsiveListItemFlexColumnRenderer": {
+                                    "text": {
+                                        "runs": [
+                                            {
+                                                "text": "SONG2_ALBUM"
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "musicResponsiveListItemRenderer": {
+                        "flexColumns": [
+                            {
+                                "musicResponsiveListItemFlexColumnRenderer": {
+                                    "text": {
+                                        "runs": [
+                                            {
+                                                "text": "SONG3_NAME"
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "musicResponsiveListItemFlexColumnRenderer": {
+                                    "text": {
+                                        "runs": [
+                                            {
+                                                "navigationEndpoint": {
+                                                    "browseEndpoint": {
+                                                        "browseId": "SONG3_ID"
+                                                    }
+                                                },
+                                                "text": "SONG3_ARTIST"
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "musicResponsiveListItemFlexColumnRenderer": {
+                                    "text": {
+                                        "runs": [
+                                            {
+                                                "text": "SONG3_ALBUM"
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
