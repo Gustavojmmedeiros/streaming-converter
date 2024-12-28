@@ -13,7 +13,6 @@ log = structlog.get_logger(__name__)
 
 
 class YoutubeAPI:
-
     URL = "https://music.youtube.com/youtubei"
     CLIENT_NAME = "WEB_REMIX"
     CLIENT_VERSION = "1.20240131.01.00"
@@ -60,7 +59,6 @@ class YoutubeAPI:
         is_continuation = False
 
         while True:
-
             is_ok, r = req(
                 "POST",
                 url=url,

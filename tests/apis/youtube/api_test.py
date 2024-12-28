@@ -7,7 +7,6 @@ from streaming_converter.apis.youtube.api import YoutubeAPI
 # NEXT
 @patch("streaming_converter.apis.http_request.req")
 def test_playlist_list_songs(mock_req):
-
     f1 = open("tests/apis/youtube/responses/get_songs_first_resp.json")
     f2 = open("tests/apis/youtube/responses/get_songs_continuation.json")
 
