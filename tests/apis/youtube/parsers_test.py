@@ -56,9 +56,9 @@ def test_get_songs_to_parse(test_file_name, is_continuation, expected):
             "get_songs_continuation.json",
             True,
             [
-                Song("SONG1_ID", "SONG1_NAME", "SONG1_ALBUM", "SONG1_ARTIST"),
-                Song("SONG2_ID", "SONG2_NAME", "SONG2_ALBUM", "SONG2_ARTIST"),
                 Song("SONG3_ID", "SONG3_NAME", "SONG3_ALBUM", "SONG3_ARTIST"),
+                Song("SONG4_ID", "SONG4_NAME", "SONG4_ALBUM", "SONG4_ARTIST"),
+                Song("SONG5_ID", "SONG5_NAME", "SONG5_ALBUM", "SONG5_ARTIST"),
             ],
         ),
     ],
